@@ -1,4 +1,9 @@
 h1{
     background-color:aliceblue;
     text-align: center;
+    color: black;
+}
+
+#navbar ul{
+    list-style-type: none;
 }
