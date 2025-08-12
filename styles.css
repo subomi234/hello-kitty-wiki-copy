@@ -68,10 +68,24 @@ body{
 }
 
 main{
-    background-color: rgb(255, 0, 162);
+    background-image: linear-gradient(rgb(249, 213, 219), rgb(255, 67, 158), rgb(255, 0, 149));
+    margin: 0px;
 }
 
-main div{
-    display: block;
-    height: 20em;
+#main-background{
+    height: 500px;
 }
+
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    height: 55px;
+}
+
+footer p{
+    margin: auto;
+    padding: 20px;
+    font-size: smaller;
+}
+
