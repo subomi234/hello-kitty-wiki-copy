@@ -27,6 +27,7 @@ header input::placeholder{
 header{
     margin: 0px;
     padding: 0px;
+    background-color: white;
 }
 
 header button{
@@ -63,17 +64,12 @@ header button:hover{
     background-color: white;
     width: 70px;
 }
+
+
 body{
+    background-image: linear-gradient(rgb(255, 219, 223), rgb(255, 67, 158), rgb(255, 0, 149));
+    background-attachment: fixed;
     margin: 0px;
-}
-
-main{
-    background-image: linear-gradient(rgb(249, 213, 219), rgb(255, 67, 158), rgb(255, 0, 149));
-    margin: 0px;
-}
-
-#main-background{
-    height: 500px;
 }
 
 footer{
@@ -89,3 +85,13 @@ footer p{
     font-size: smaller;
 }
 
+.main-content{
+    background-color: white;
+    position: sticky;
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 4px;
+    padding: 20px;
+}
